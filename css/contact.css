@@ -1,0 +1,204 @@
+/* Add Bootstrap CSS Link */
+@import url(bootstrap.min.css);
+/* Add Icons Link */
+@import url(all.min.css);
+/* Add Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+h5{
+    font-size: 16px;
+}
+
+h1, h2, h3, h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+p,a,input{
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+span{
+    font-size: 12px;
+}
+
+p, a, span, input{
+    font-family: 'Roboto', sans-serif;
+} 
+
+/* Main Section CSS Start */
+
+    /* Navber */
+    .main .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        color: #fff !important;
+    }
+    .main .navbar-nav .nav-link:focus,.navbar-nav .nav-link:hover{
+        color: #EDB932 !important;
+    }
+
+    /* Hr */
+    hr{
+        color: #fff;
+        opacity: .50;
+    }
+
+
+.y-font{
+    color: #EDB932;
+   }
+   .btn-secondary{
+    border-radius: 100%;
+   }
+   /* hover start */
+   .g_direction:hover{
+       color: #EDB932;
+   
+   }
+   .fa-instagram:hover{
+       color: #EDB932;
+   }
+   .fa-youtube:hover{
+       color: #EDB932;    
+   }
+   .fa-twitter:hover{
+       color: #EDB932;  
+   }
+   .fa-facebook:hover{
+       color: #EDB932; 
+   }
+
+/* Map Section CSS Start */
+
+.section-title{
+    font-weight: 700;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form{
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-form .form-label span{
+    color: red;
+}
+
+.contact-form .btn{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.contact-form .btn:hover{
+    color: white;
+}
+.map-area {
+    border: none;
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+/* Map Section CSS End */
+
+/* Subscribe Section CSS Start */
+
+.Subscribe{
+    background-color: #FFFFFF;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.Subscribe .btn{
+    background-color: #EDB932 !important;
+}
+
+.Subscribe .btn:hover{
+    color: #fff !important;
+    transition: 0.15s;
+}
+
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.Subscribe .Column-2{
+    margin: -5px 0px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.Subscribe button span{
+    /* font-size: 12px; */
+    letter-spacing: 3px;
+}
+
+
+/* Subscribe Section CSS End */
+
+/* Footer Section CSS Start */
+
+/* Navber */
+.footer .nav-link.active, .nav-link.show{
+    color: #fff !important;
+}
+.footer .nav-link:focus, .nav-link:hover{
+    color: #EDB932 !important;
+}
+
+.footer h2{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+}
+
+.footer img{
+    margin-bottom: 0.5em;
+}
+
+.footer .C-Grpouo p{
+    line-height: 2rem;
+}
+
+
+.footer address p{
+    line-height: 1rem;
+}
+
+/* Footer Section CSS End */

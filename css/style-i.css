@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI';
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-brand span{
+	color: #4bcaff;
+}
+
+.menu .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #4bcaff !important;
+    border: 2px solid #4bcaff;
+}
+
+.menu .nav-link{
+    border: 2px solid transparent;
+}
+
+.menu .nav-link:focus, .nav-link:hover:hover{
+    color: #4bcaff !important;
+    border: 2px solid #4bcaff;
+}
+
+.hero figcaption h1{
+    font-size: 40px;
+}
+
+/*
+.hero figcaption span{
+    background-color: #424d55;
+}
+*/
+
+.SERVICES{
+    background-color: #4bcaff;
+}
+
+.SERVICES hr{
+	width: 45px;
+	border-width: 2px;
+	border-color: #fff;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+.PORTFOLIO hr{
+	width: 45px;
+	border-width: 2px;
+	border-color: #000;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+.JUST hr{
+	width: 45px;
+	border-width: 2px;
+	border-color: #fff;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+.TWITTER{
+    background-color: #4bcaff;
+}
+
+.TWITTER hr{
+	width: 45px;
+	border-width: 2px;
+	border-color: #fff;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+
+
+
+.TESTIOMONIALS .walter{
+	color: #4bcaff !important;
+}
+
+.CONTACT hr{
+	width: 45px;
+	border-width: 2px;
+	border-color: #fff;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+.CONTACT .row p{
+	margin-top: 120px;
+}
+
+.SERVICES h4{
+	font-size: 24px;
+}
+
+.SERVICES p{
+	font-size: 15px;
+}
+
+.JUST p{
+	font-size: 15px;
+}
+
+hr{
+	width: 45px;
+	border-width: 2px;
+	border-color: #000;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+#PORTFOLIO .Button .btn.active,.Button .btn.show{
+    color: #4bcaff !important;
+    border: 2px solid #4bcaff;
+}
+
+#PORTFOLIO .btn{
+    border: 2px solid transparent;
+}
+
+#PORTFOLIO .btn:focus, #PORTFOLIO .btn:hover{
+    color: #4bcaff !important;
+    border: 2px solid #4bcaff;
+}
+
+
+
+.JUST a{
+    border: 2px solid transparent;
+	border-radius: 0;
+}
+
+.just p{
+	font-size: 14px !important;
+}
+.Twitter {
+	background-color: #4bcaff;
+}
+.Twitter hr{
+	width: 45px;
+	border-width: 2px;
+	border-color:white;
+	opacity: 1;
+	margin-top: 10px;
+}
+.Twitter p{
+	font-size: 28px;
+}
+/* WHO */
+.who{
+	background-image: url('../img/about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.who hr{
+	width: 45px;
+	border-width: 2px;
+	border-color:white;
+	opacity: 1;
+	margin-top: 10px;
+}
+.who a{
+    box-sizing: border-box;
+    border-radius: 0;
+}
+/* text */
+.text hr{
+	width: 45px;
+	border-width: 2px;
+	border-color:black;
+	opacity: 1;
+	margin-top: 10px;
+}
+
+.text p{
+	font-size: 14px;
+}
+/* contact */
+.contact{
+	background-image: url('../img/contact-bg.jpg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.contact hr{
+	width: 45px;
+	border-width: 2px;
+	border-color:white;
+	opacity: 1;
+	margin-top: 10px;
+}
+.contact a{
+	box-sizing: border-box;
+	border: 2px solid transparent;
+	border-radius: 0;
+}
+
+/* footer */
+.footer{
+	background-color: #353f47;
+}
+.footer a{
+	color: #414d55;
+	box-sizing: border-box;
+	border: 2px solid transparent;
+	border-radius: 0;
+}
+.portfolio-item figcaption{
+	opacity: 0;
+}
+.portfolio-item:hover figcaption{
+	opacity: 1;
+}

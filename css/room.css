@@ -1,0 +1,268 @@
+/* Add Bootstrap CSS Link */
+@import url(bootstrap.min.css);
+/* Add Icons Link */
+@import url(all.min.css);
+/* Add Fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+h5{
+    font-size: 16px;
+}
+
+h1, h2, h3, h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+p,a,input{
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+span{
+    font-size: 12px;
+}
+
+p, a, span, input{
+    font-family: 'Roboto', sans-serif;
+} 
+
+/* Main Section CSS Start */
+ 
+/* logo */
+.logo-img{
+    max-width: 100px;
+    max-height: 100px;
+}
+    /* Navber */
+    .main .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        color: #fff !important;
+    }
+    .main .navbar-nav .nav-link:focus,.navbar-nav .nav-link:hover{
+        color: #EDB932 !important;
+    }
+
+
+/* New Product Section-1 CSS Start */
+
+.card-section h2{
+    font-size: 16px;
+    color: #BC9127;
+}
+
+.add-to-cart {
+    position: absolute;
+    right: 0px;
+    left: 200px;
+    top: 10px;
+    padding: .5em 1em; 
+    transform: translateX(1px);
+    transition: .5s ease;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    opacity: 0;
+    background: transparent;
+}
+
+.card1:hover .add-to-cart{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* .add-to-cart{
+    border: none;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+.quick-view {
+    position: absolute;
+    right: 0px;
+    left: 200px;
+    top: 40px;
+    padding: .5em 1em; 
+    transform: translateX(1px);
+    transition: .5s ease;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    opacity: 0;
+    background: transparent;
+}
+
+.card1:hover .quick-view{
+    transform: translateX(0);
+    opacity: 1;
+}
+.card-section .row .product:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+/* New Product Section-1-2 CSS End */
+
+/* Bathroom section */
+
+/* Subscribe Section CSS Start */
+
+.Subscribe{
+    background-color: #FFFFFF;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.Subscribe .btn{
+    background-color: #EDB932 !important;
+}
+
+.Subscribe .btn:hover{
+    color: #fff !important;
+    transition: 0.15s;
+}
+
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.Subscribe .Column-2{
+    margin: -5px 0px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.Subscribe button span{
+    /* font-size: 12px; */
+    letter-spacing: 3px;
+}
+
+
+/* Subscribe Section CSS End */
+
+/* Footer Section CSS Start */
+
+/* Navber */
+.footer .nav-link.active, .nav-link.show{
+    color: #fff !important;
+}
+.footer .nav-link:focus, .nav-link:hover{
+    color: #EDB932 !important;
+}
+
+.footer h2{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+}
+
+.footer img{
+    margin-bottom: 0.5em;
+}
+
+.footer .C-Grpouo p{
+    line-height: 2rem;
+}
+
+
+.footer address p{
+    line-height: 1rem;
+}
+
+/* Footer Section CSS End */
+/*-- popup --*/
+
+.overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 0ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+      background: #fff;
+      border-radius: 5px;
+      max-width: 500px;
+      position: relative;
+      margin: 8em auto;
+      padding: 3em 1em;
+  }
+  .popup h4{
+      font-size: 24px;
+      color: #666;
+      letter-spacing: .5px;
+      line-height: 30px;
+  }
+  .popup .close {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #000;
+  }
+  .popup h2 {
+    margin-top: 0;
+    color: #fff;
+  
+  }
+  .popup .close {
+      position: absolute;
+      top: 5px;
+      right: 15px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #000;
+  }
+  .popup .close:hover {
+    color: #30c39e;
+  }
+  
+  /*-- //popup --*/
+  

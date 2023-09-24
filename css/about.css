@@ -1,0 +1,165 @@
+
+/* //ADD BOOTSTRSP */
+@import url(bootstrap.min.css);
+/* //ADD ICONS */
+@import url(all.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+h5{
+    font-size: 16px;
+}
+
+h1, h2, h3, h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+p,a{
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+span{
+    font-size: 12px;
+}
+
+p, a, span{
+    font-family: 'Roboto', sans-serif;
+} 
+/* logo */
+.logo-img{
+    max-width: 100px;
+    max-height: 100px;
+}
+body{
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #000 !important;
+}
+
+.nav-link:focus, .nav-link:hover:hover{
+    color: #c29127 !important;
+
+}
+
+.Shopping{
+    grid-template-columns: 1fr 30px;
+}
+
+.Shopping .shopping span{
+    top: -20px;
+    left: 90%;
+    padding: 1px 8px;
+}
+
+.list{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+hr{
+    margin-top: -5px;
+    color: #fff;
+    opacity: .50;
+}
+
+
+/* parallex */
+.parallex{
+    background-image: url("../images/about us/background-furnitures.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.count .container{
+    margin-top: -180px;
+}
+
+
+#Footer address {
+    margin-bottom: 1rem;
+    line-height: 2.2;
+}
+
+#Footer .row .C-Grpouo{
+    margin-bottom: 1rem;
+    line-height: 2.2;
+}
+/* best-quality */
+
+.best-quality img{
+    max-height: 700px;
+    width: 100%;
+}
+/* Subscribe Section CSS Start */
+
+.Subscribe{
+    background-color: #FFFFFF;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.Subscribe .btn{
+    background-color: #EDB932 !important;
+}
+
+.Subscribe .btn:hover{
+    color: #fff !important;
+    transition: 0.15s;
+}
+
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+.Subscribe .Column-2{
+    margin: -5px 0px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+.Subscribe button span{
+    /* font-size: 12px; */
+    letter-spacing: 3px;
+}
+
+
+/* Subscribe Section CSS End */
+
